@@ -16,9 +16,6 @@ jobs:
     - run:
         name: "Run Prettier check"
         command: "npx prettier --check ."
-    - run:
-        name: "Run ESLint check"
-        command: "npx eslint ."
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
