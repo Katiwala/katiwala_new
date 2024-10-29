@@ -5,21 +5,20 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/jobs-steps/#jobs-overview & https://circleci.com/docs/configuration-reference/#jobs
 jobs:
-    # Add steps to the job
-    # See: https://circleci.com/docs/jobs-steps/#steps-overview & https://circleci.com/docs/configuration-reference/#steps
-    steps:
-      # Checkout the code as the first step.
-      - checkout
-      - run:
-          name: "Install npm packages"
-          command: "npm install"
-      - run:
-          name: "Run Prettier check"
-          command: "npx prettier --check ."
-      - run:
-          name: "Run ESLint check"
-          command: "npx eslint ."
-
+  # Add steps to the job
+  # See: https://circleci.com/docs/jobs-steps/#steps-overview & https://circleci.com/docs/configuration-reference/#steps
+  steps:
+    # Checkout the code as the first step.
+    - checkout
+    - run:
+        name: "Install npm packages"
+        command: "npm install"
+    - run:
+        name: "Run Prettier check"
+        command: "npx prettier --check ."
+    - run:
+        name: "Run ESLint check"
+        command: "npx eslint ."
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
