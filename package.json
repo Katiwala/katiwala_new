@@ -10,8 +10,7 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "prettier": "prettier --write .",
-    "lint-fix": "expo lint --fix"
+    "prettier": "prettier --write ."
   },
   "jest": {
     "preset": "jest-expo"
