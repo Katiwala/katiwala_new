@@ -75,6 +75,7 @@ export const styles = StyleSheet.create({
     marginTop: 20,
     flexDirection: "row",
     justifyContent: "center",
+    color: "white",
   },
   createAccountText: {
     color: "#007AFF",
