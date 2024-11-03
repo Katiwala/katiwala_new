@@ -15,7 +15,8 @@ const ForgotPasswordLayout = () => {
         />
       </Stack>
     </SafeAreaView>
-  );<></>
+  );
+  <></>;
 };
 
 export default ForgotPasswordLayout;
