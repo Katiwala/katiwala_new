@@ -9,13 +9,13 @@ const ForgotPasswordLayout = () => {
         <Stack.Screen
           name="index"
           options={{
-            title: "Forgot Password",
+            title: "Reset Your Password", // Changed title
             headerShown: false,
           }}
         />
       </Stack>
     </SafeAreaView>
-  );
+  );<></>
 };
 
 export default ForgotPasswordLayout;
