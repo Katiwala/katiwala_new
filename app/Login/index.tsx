@@ -75,7 +75,7 @@ const LoginScreen = () => {
           <Ionicons name="logo-google" size={24} color="white" />
           <Text style={styles.socialButtonText}>Google</Text>
         </TouchableOpacity>
-      </View> 
+      </View>
       <View style={styles.createAccountContainer}>
         <Text style={{ color: "black" }}>Don't have an account?</Text>
         <TouchableOpacity onPress={handleCreateAccount}>
