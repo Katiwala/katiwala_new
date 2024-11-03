@@ -9,7 +9,7 @@ const ForgotPasswordLayout = () => {
         <Stack.Screen
           name="index"
           options={{
-            title: "Forgot password",
+            title: "Forgot Password",
             headerShown: false,
           }}
         />
